@@ -1,0 +1,132 @@
+.body_texture{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 80%;
+}
+
+.box_texture{
+
+    width: 441px;
+    height: 641px;
+    border-radius: 10px;
+    position: absolute;
+    opacity: 80%;
+    pointer-events: none; /* its a property that dont let the element to be clicked */
+}
+
+body {
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #00011B;
+    box-shadow: 0px 4px 21px 0px rgba(0, 0, 0, 0.25);
+    padding-right: 0px;
+    align-items: center;
+    
+}
+
+.signin-box {
+    background-color: #0D0E23;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    width: 400px;
+    height: 600px; 
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #161132;
+}
+
+h1 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* font-family: Julius Sans One; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+
+
+    background: #07081A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 350px;
+    height: 50px;
+    color: #FFF;
+    outline: none;
+    margin-top: 33.3px;
+    border: none;
+    text-indent: 10px;
+
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+button {
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #181B5C;
+    color: #fff;
+    border: none;   
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 33.3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transition-delay: 0.02s;
+}
+
+.create-account {
+    color: #FFF;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+}
+
+.create-account a{
+    
+    color: #0056b3;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.create-account a:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition-delay: 0.02s;
+}
